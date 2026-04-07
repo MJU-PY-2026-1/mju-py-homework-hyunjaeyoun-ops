@@ -34,9 +34,9 @@
     * **프롬프트 요약:** ""파이썬으로 3d 쿠키런을 만들 수 있어?"
     * **적용 내용:** 파이썬의 ursina 라이브러리를 검색해보라고 함. 더 검색해봤을때 한계를 느낌
       
- 2. **내용 2 : 로드맵 도출**
+ 2. **내용 2 : 점수**
     * **프롬프트 요약:** "1차 과제 필수 요건(변수 5개, 자료형 3개 이상)을 충족하기 위한 캐릭터 초기 스탯 데이터 구조 모델링 논의"
-    * **적용 내용:** 포괄적인 의미의 '공격력' 변수 하나를 사용하는 대신, 데이터 특성에 맞춰 문자형(`char` - 이니셜), 정수형(`int` - 체력, 마나), 실수형(`float` - 무기 공격력)으로 자료형을 명확히 분리하여 입력 데이터의 구조적 완성도를 높임.
+    * **적용 내용:** 게임이 끝났을 때는 점수는 문자형으로, 코인은 정수형으로 바꾸어야 합니다.
     
 ### **📁 증빙 자료:**
 ![KakaoTalk_20260407_093031800_27](https://github.com/user-attachments/assets/d2b972a7-e324-46ee-98b2-184e752a75ec)
@@ -49,6 +49,24 @@
 ![KakaoTalk_20260407_093031800_20](https://github.com/user-attachments/assets/f1f32137-8789-4e84-b19c-36374426c2f7)
 ![KakaoTalk_20260407_093031800_20](https://github.com/user-attachments/assets/603a46ce-c68e-4004-9b5a-94f61a5f8814)
 ![KakaoTalk_20260407_093031800_18](https://github.com/user-attachments/assets/3fcc5189-2666-4250-942f-4c39481fe451)
+![KakaoTalk_20260407_093031800_17](https://github.com/user-attachments/assets/acb6441a-1153-4783-b2d9-eca728c4cae8)
+![KakaoTalk_20260407_093031800_16](https://github.com/user-attachments/assets/bb62185d-bfa1-4b54-b2d9-19d0408febb8)
+![KakaoTalk_20260407_093031800_15](https://github.com/user-attachments/assets/41384411-d7a1-4844-8ea3-96fa783fa4f4)
+![KakaoTalk_20260407_093031800_14](https://github.com/user-attachments/assets/6ea44650-6a21-432b-8e44-39946285ed43)
+![KakaoTalk_20260407_093031800_13](https://github.com/user-attachments/assets/aa449d6f-a4ee-4e7e-aa70-d742733c98b4)
+![KakaoTalk_20260407_093031800_12](https://github.com/user-attachments/assets/8a961410-e74a-4e98-87ec-a47747c6437b)
+![KakaoTalk_20260407_093031800_11](https://github.com/user-attachments/assets/abe857d0-57ba-4c42-a1bb-e201b061436d)
+![KakaoTalk_20260407_093031800_10](https://github.com/user-attachments/assets/56436546-0ae2-4d71-9813-de69fd773e64)
+![KakaoTalk_20260407_093031800_09](https://github.com/user-attachments/assets/f85be813-f6ca-43cb-93fb-d4999c7cfde0)
+![KakaoTalk_20260407_093031800_08](https://github.com/user-attachments/assets/3d0f8a0e-1a67-4332-a2c6-38712804655d)
+![KakaoTalk_20260407_093031800_07](https://github.com/user-attachments/assets/c89e68cb-9da5-4775-8b8e-d39de5d663c0)
+![KakaoTalk_20260407_093031800_06](https://github.com/user-attachments/assets/fc706cee-caa9-4d4c-9261-63d3c1fa5789)
+![KakaoTalk_20260407_093031800_05](https://github.com/user-attachments/assets/1a9f81ee-3e71-45c6-96d9-2e3f4fd17003)
+![KakaoTalk_20260407_093031800_04](https://github.com/user-attachments/assets/08429933-614d-4e5e-903d-f76c238a9bd5)
+![KakaoTalk_20260407_093031800_03](https://github.com/user-attachments/assets/eda8e1a6-d36a-4613-8819-2d86f989635a)
+![KakaoTalk_20260407_093031800_02](https://github.com/user-attachments/assets/6e9eac18-7fde-460d-b2c4-794b1a855f7d)
+![KakaoTalk_20260407_093031800_01](https://github.com/user-attachments/assets/a9c0ca1d-af30-43ac-966c-9bf4ba873424)
+![KakaoTalk_20260407_093031800](https://github.com/user-attachments/assets/a0c6d131-a805-44cb-82a5-98457a5980e1)
 
 
 
