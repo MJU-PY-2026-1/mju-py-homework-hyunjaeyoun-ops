@@ -30,16 +30,36 @@
     
 ### **🤖 AI 파트너십 과정**
 (예시)
- 1. **내용 1 : 길드 매니저 컨셉 도출**
-    * **프롬프트 요약:** ""파이썬으로 RPG 게임 같은 프로그램을 만들고 싶어. 내가 어떤 역할을 맡아서 이 프로그램을 관리하면 1학년 학생들이 재미있게 코딩할 수 있을까? 멋진 컨셉 하나만 추천해줘.""
-    * **적용 내용:** AI가 제안한 여러 아이디어 중 **'용사 길드의 신입 매니저'**라는 컨셉이 가장 마음에 들어 채택함. 단순히 코드를 짜는 게 아니라 '길드를 운영한다'는 목표를 세우니 기획이 훨씬 즐거워짐.
+ 1. **내용 1 : 파이썬으로 가능한 것의 범위를 물어봄
+    * **프롬프트 요약:** ""파이썬으로 3d 쿠키런을 만들 수 있어?"
+    * **적용 내용:** 파이썬의 ursina 라이브러리를 검색해보라고 함. 더 검색해봤을때 한계를 느낌
       
  2. **내용 2 : 로드맵 도출**
     * **프롬프트 요약:** "1차 과제 필수 요건(변수 5개, 자료형 3개 이상)을 충족하기 위한 캐릭터 초기 스탯 데이터 구조 모델링 논의"
     * **적용 내용:** 포괄적인 의미의 '공격력' 변수 하나를 사용하는 대신, 데이터 특성에 맞춰 문자형(`char` - 이니셜), 정수형(`int` - 체력, 마나), 실수형(`float` - 무기 공격력)으로 자료형을 명확히 분리하여 입력 데이터의 구조적 완성도를 높임.
     
 ### **📁 증빙 자료:**
-![KakaoTalk_20260407_093031800_27](https://github.com/user-attachments/assets/f5a06f7f-f270-4cb5-9cc8-496a76a55efc)
+![KakaoTalk_20260407_093031800_27](https://github.com/user-attachments/assets/d2b972a7-e324-46ee-98b2-184e752a75ec)
+![KakaoTalk_20260407_093031800_26](https://github.com/user-attachments/assets/78a62bb4-ae00-43e0-9609-b5e0e56675a9)
+![KakaoTalk_20260407_093031800_25](https://github.com/user-attachments/assets/859e7ab0-55bf-47d6-93f6-dc6526015b37)
+![KakaoTalk_20260407_093031800_24](https://github.com/user-attachments/assets/5c8a9ca0-7587-4e56-8023-faafde1d45c5)
+![KakaoTalk_20260407_093031800_23](https://github.com/user-attachments/assets/08199ed3-d3d2-4792-9dfb-2ca0e2b7653f)
+![KakaoTalk_20260407_093031800_22](https://github.com/user-attachments/assets/8b087646-df1a-4fbb-a73e-56642709eb82)
+![KakaoTalk_20260407_093031800_21](https://github.com/user-attachments/assets/aa259844-ec12-48cb-b232-128bb2e74b81)
+![KakaoTalk_20260407_093031800_20](https://github.com/user-attachments/assets/f1f32137-8789-4e84-b19c-36374426c2f7)
+![KakaoTalk_20260407_093031800_20](https://github.com/user-attachments/assets/603a46ce-c68e-4004-9b5a-94f61a5f8814)
+![KakaoTalk_20260407_093031800_18](https://github.com/user-attachments/assets/3fcc5189-2666-4250-942f-4c39481fe451)
+
+
+
+
+
+
+
+
+
+
+
 
 <br>
 
