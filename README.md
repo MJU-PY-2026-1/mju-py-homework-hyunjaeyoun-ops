@@ -112,8 +112,13 @@
    **해결:** 실시간 키 입력을 감지하는 라이브러리의 이벤트 처리 방식을 학습하여 딜레이 없는 실시간 조작을 구현함
      
 ### **📁 증빙 자료:**
-  * [2차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
-  * [2차과제_실행결과.jpg]
+<img width="1812" height="2176" alt="KakaoTalk_20260427_230420341_01" src="https://github.com/user-attachments/assets/38d2780f-e57e-424e-8658-fb10585d1fc3" />
+<img width="1812" height="2176" alt="KakaoTalk_20260427_230420341_02" src="https://github.com/user-attachments/assets/afdf5887-6bbe-46aa-84b6-fd16f811c751" />
+<img width="1812" height="2176" alt="KakaoTalk_20260427_230420341" src="https://github.com/user-attachments/assets/9a5241af-3027-414f-9a90-5307918a8aac" />
+<img width="1812" height="2176" alt="KakaoTalk_20260427_230420341_03" src="https://github.com/user-attachments/assets/6448b113-517b-41e1-95d5-9b5df29737e0" />
+
+
+
 <br>
 
 ## 🟨 [3차 과제: V3.0] 무한 루프와 메뉴 시스템 (반복문) - 향후 작성 예정
