@@ -126,19 +126,42 @@
   * 내용.
     
 ### **🤖 AI 파트너십 과정**
- 1. **내용 1**
-    * **프롬프트 요약:**  ... 
-    * **적용 내용:** ....
-    
+ 1. **내용 1** 효율적인 메뉴 시스템 및 함수 분리
+    * **프롬프트 요약:**  "파이썬으로 만든 봅슬레이 게임 코드에 메뉴 시스템을 넣고 싶어. 입력, 실행, 조회 기능을 함ㅅ로 나누고 while문으로 무한 반복하게 만드는 구조를 제안해줘"
+    * **적용 내용:** AI가 제안한 대로 main_menu(), play_game(), show_stats() 등의 함수로 로직을 분리함. 특히 메인 루프 내에서 함수 호출 위주로 구성하여 '목차'와 같은 간결한 구조를 확립함.
+   
+ 2. **내용 2** 전역 변수 및 반환값(return) 활용
+    * **프롬프트 요약:** "함수 안에서 계산된 게임 정수를 메인 메뉴의 누적 점수에 합치고 싶어. global 키워드와 return을 어떻게 써야할까?"
+    * **적용 내용:** 게임 실행 함수에서 결과 점수를 return 받아 전역 변수에 누적하는 로직을 적용함. 이를 통해 함수 간 데이터 전달 방식을 익힘.
+
+3. **내용 3** 함수 활용
+   * **프롬프트 요약:** 함수는 어떤 것을 사용하면 유용할까?
+   * **적용 내용:**
+     initialize_game()-입력 및 초기화 : 사용자로부터 캐릭터의 능력치(속도, 컨트롤 등)를 input()으로 입력받아 리스트에 저장합니다. 여기서 매개변수를 사용하여 초기 데이터를 전달하는 로직을 넣으면 필수 조건을 충족할 수 있습니다.
+     calc_performance(stats)-연산 및 반환 : 입력받은 리스트 데이터를 가중치 공식에 대입하여 종합 점수를 계사납니다. 계산된 결과값을 return문을 통해 반환해야 합니다.
+     show_result()-조회 및 출력 : 계산된 등급(S~F)과 칭호를 화면에 예쁘게 출력합니다. 이때 누적 점수를 관리하기 이해 전역 변수를 사용하고, 함수 내부에서 global 키워드를 1회 이상 사용하세요.
 ### **🛠️ Troubleshooting & 기술 회고:**
-  1. **문제 1:** ...
-     * **원인:** ...
-     * **해결:** ..
-     
+  1. **문제 1:** 함수 내부에서 전역 변수 수정 시 오류 발생
+     * **원인:** 함수 안에서 전역 변수(예 : total_coins)의 값을 직접 변경하려 할 때, 파이썬이 이를 지역 변수로 착각하여 오류가 발생함.
+     * **해결:** 함수 내부에 global total_coins문구를 추가하여 외부 변수를 수정할 수 있도록 허용함.
+
+ 2. **문제 2:** 메뉴 종료가 되지 않는 현상
+     * **원인:** while True 루프 내에서 종료 조건을 검사하지만, break 문이 올바른 위치에 있지 않아 루프를 빠져나오지 못함.
+     * **해결:** 사용자가 '종료'메뉴(예: 0번 또는 4번)를 선택했을 때만 break가 작동하도록 조건문을 수정하여 정상 종료 구현
+       
 ### **📁 증빙 자료:**
   * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
   * [3차과제_실행결과.jpg]
-<br>
+<br><img width="1812" height="2176" alt="KakaoTalk_20260525_213926931_06" src="https://github.com/user-attachments/assets/5abccd28-e85b-422f-9461-a76741d87924" />
+<img width="1812" height="2176" alt="KakaoTalk_20260525_213926931_05" src="https://github.com/user-attachments/assets/f83e25dd-dd11-45f9-a899-db5e30d8a8fa" />
+<img width="1812" height="2176" alt="KakaoTalk_20260525_213926931_05" src="https://github.com/user-attachments/assets/0f0d1712-4b34-4706-a183-c5ecafe14b16" />
+<img width="1812" height="2176" alt="KakaoTalk_20260525_213926931_05" src="https://github.com/user-attachments/assets/eca5d77e-475f-4c31-8873-51c1df8c6c34" />
+<img width="1812" height="2176" alt="KakaoTalk_20260525_213926931_02" src="https://github.com/user-attachments/assets/fd6ac31e-1a66-4df1-ad1e-bd4c3195fddb" />
+<img width="1812" height="2176" alt="KakaoTalk_20260525_213926931_02" src="https://github.com/user-attachments/assets/64e1c569-1182-4749-832a-c050d593493c" />
+<img width="1812" height="2176" alt="KakaoTalk_20260525_213926931" src="https://github.com/user-attachments/assets/409186aa-6731-467b-86a6-a19dee2baa57" />
+
+
+
 
 ### 🟥 [4차 과제: V4.0] 모듈화 및 데이터 확장 (배열과 함수) - 🌟최종 완성 -- 향후 작성 예정
 ### **✨4차 과제 업데이트 내용:**
